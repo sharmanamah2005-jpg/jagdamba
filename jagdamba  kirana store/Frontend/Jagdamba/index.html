@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#176b45">
+  <meta name="description" content="Shop fresh groceries, daily essentials and household favourites at Jagdamba Kirana Store.">
+  <title>Jagdamba Kirana Store | Freshness at Your Doorstep</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">
+    <span class="announcement-dot"></span>
+    <span>Fresh picks. Fair prices. Delivered with care.</span>
+    <span class="announcement-right">Your neighbourhood store, now online <span aria-hidden="true">✦</span></span>
+  </div>
+
+  <header class="site-header">
+    <div class="header-main container">
+      <a class="brand" href="#" aria-label="Jagdamba Kirana Store home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img"><path d="M24 5C14 5 7 13 7 23c0 11 7 18 17 20 10-2 17-9 17-20C41 13 34 5 24 5Z" fill="currentColor" opacity=".16"/><path d="M24 38V17" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M24 26C13 26 11 18 11 14c9 0 13 4 13 12ZM24 21c0-9 7-13 13-13 0 8-4 13-13 13Z" fill="currentColor"/><path d="M16 35h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-copy"><strong>Jagdamba</strong><small>KIRANA STORE</small></span>
+      </a>
+
+      <div class="delivery-pill">
+        <span class="delivery-icon">⌖</span>
+        <span><small>Delivering to</small><strong>Jaipur, Rajasthan</strong></span>
+        <span class="chevron">⌄</span>
+      </div>
+
+      <form class="search-bar" id="searchForm" role="search">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="Search atta, fruits, snacks..." autocomplete="off" aria-label="Search groceries">
+        <button type="submit">Search</button>
+      </form>
+
+      <button class="cart-button" id="openCartBtn" type="button" aria-label="Open shopping cart">
+        <span class="cart-icon" aria-hidden="true">🛒</span>
+        <span class="cart-label"><strong>My Cart</strong><small id="headerCartTotal">₹0</small></span>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+
+    <nav class="category-nav" aria-label="Main categories">
+      <div class="container nav-inner">
+        <button class="nav-link active" data-category="All" type="button">All products</button>
+        <button class="nav-link" data-category="Fruits & Vegetables" type="button">Fruits & vegetables</button>
+        <button class="nav-link" data-category="Dairy & Bakery" type="button">Dairy & bakery</button>
+        <button class="nav-link" data-category="Atta, Rice & Dal" type="button">Atta, rice & dal</button>
+        <button class="nav-link" data-category="Snacks & Drinks" type="button">Snacks & drinks</button>
+        <button class="nav-link" data-category="Personal Care" type="button">Personal care</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section container">
+      <div class="hero-copy">
+        <div class="eyebrow"><span>✦</span> YOUR DAILY GROCERY PARTNER</div>
+        <h1>Good food.<br><span>Good mood.</span></h1>
+        <p>Everyday essentials, farm-fresh favourites and little treats — all in one happy place.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#shop">Shop groceries <span aria-hidden="true">↗</span></a>
+          <div class="hero-note"><span class="mini-check">✓</span><span>Quality you can trust<br><strong>Prices you'll love</strong></span></div>
+        </div>
+        <div class="hero-stats">
+          <div><strong>500+</strong><span>Daily essentials</span></div>
+          <div class="stats-divider"></div>
+          <div><strong>Fresh</strong><span>Every single day</span></div>
+          <div class="stats-divider"></div>
+          <div><strong>Local</strong><span>Made for your home</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-orb"></div>
+        <div class="hero-sunburst">FRESH<br>EVERY DAY</div>
+        <div class="hero-image-wrap">
+          <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1100&q=85" alt="Fresh colourful vegetables in a grocery market" fetchpriority="high">
+        </div>
+        <div class="floating-card floating-card-top"><span class="floating-icon">🌿</span><span><strong>Freshly picked</strong><small>Goodness in every bite</small></span></div>
+        <div class="floating-card floating-card-bottom"><span class="rating-stars">★★★★★</span><span><strong>Your local favourite</strong><small>Trusted for everyday needs</small></span></div>
+        <span class="decor decor-one">✳</span><span class="decor decor-two">✦</span>
+      </div>
+    </section>
+
+    <section class="benefits-strip container" aria-label="Store benefits">
+      <div class="benefit"><span class="benefit-icon green">♧</span><span><strong>Freshness first</strong><small>Carefully selected goods</small></span></div>
+      <div class="benefit"><span class="benefit-icon orange">₹</span><span><strong>Everyday value</strong><small>Prices that make sense</small></span></div>
+      <div class="benefit"><span class="benefit-icon green">♡</span><span><strong>Neighbourhood care</strong><small>Service with a smile</small></span></div>
+      <div class="benefit"><span class="benefit-icon orange">↗</span><span><strong>Easy ordering</strong><small>Shop in just a few clicks</small></span></div>
+    </section>
+
+    <section class="categories-section container">
+      <div class="section-heading">
+        <div><span class="section-kicker">A LITTLE BIT OF EVERYTHING</span><h2>Shop by category<span class="heading-period">.</span></h2></div>
+        <button class="text-link" id="viewAllCategories" type="button">View all products <span>→</span></button>
+      </div>
+      <div class="category-grid">
+        <button class="category-card cat-produce" data-category="Fruits & Vegetables" type="button">
+          <span class="category-art"><img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=400&q=80" alt="" loading="lazy"></span><span class="category-name">Fruits &<br>vegetables</span><span class="category-arrow">↗</span>
+        </button>
+        <button class="category-card cat-dairy" data-category="Dairy & Bakery" type="button">
+          <span class="category-art"><img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=400&q=80" alt="" loading="lazy"></span><span class="category-name">Dairy &<br>bakery</span><span class="category-arrow">↗</span>
+        </button>
+        <button class="category-card cat-staples" data-category="Atta, Rice & Dal" type="button">
+          <span class="category-art"><img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=400&q=80" alt="" loading="lazy"></span><span class="category-name">Atta, rice<br>& dal</span><span class="category-arrow">↗</span>
+        </button>
+        <button class="category-card cat-snacks" data-category="Snacks & Drinks" type="button">
+          <span class="category-art"><img src="https://images.unsplash.com/photo-1621939514649-280e2aa2f3a0?auto=format&fit=crop&w=400&q=80" alt="" loading="lazy"></span><span class="category-name">Snacks &<br>drinks</span><span class="category-arrow">↗</span>
+        </button>
+        <button class="category-card cat-care" data-category="Personal Care" type="button">
+          <span class="category-art"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=400&q=80" alt="" loading="lazy"></span><span class="category-name">Personal<br>care</span><span class="category-arrow">↗</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="products-section container" id="shop">
+      <div class="section-heading products-heading">
+        <div><span class="section-kicker">PICKS FOR YOUR PANTRY</span><h2>Popular right now<span class="heading-period">.</span></h2><p class="section-description">The everyday favourites your home runs on.</p></div>
+        <div class="product-tools">
+          <label class="sort-label" for="sortSelect">Sort by</label>
+          <select id="sortSelect" aria-label="Sort products">
+            <option value="featured">Recommended</option>
+            <option value="price-low">Price: low to high</option>
+            <option value="price-high">Price: high to low</option>
+            <option value="name">Name: A to Z</option>
+          </select>
+        </div>
+      </div>
+      <div class="active-filters" id="activeFilters" hidden><span id="filterLabel">Showing all products</span><button id="clearFilters" type="button">Clear filters ×</button></div>
+      <div class="product-grid" id="productGrid" aria-live="polite">
+        <div class="loading-state">Getting the good stuff ready...</div>
+      </div>
+      <div class="empty-state" id="emptyState" hidden><span>🧺</span><h3>No groceries found</h3><p>Try a different search or choose another category.</p><button class="primary-button" id="resetSearch" type="button">Show all products</button></div>
+      <div class="load-more-wrap"><button class="secondary-button" id="loadMoreBtn" type="button">Explore all essentials <span>↓</span></button></div>
+    </section>
+
+    <section class="promo-section container">
+      <div class="promo-copy"><span class="promo-label">A LITTLE EXTRA LOVE</span><h2>Stock up on<br>the good stuff.</h2><p>Make everyday shopping feel a little more joyful.</p><a href="#shop" class="promo-button">Find your favourites <span>→</span></a></div>
+      <div class="promo-art"><div class="promo-circle"></div><img src="https://images.unsplash.com/photo-1543168256-418811576931?auto=format&fit=crop&w=750&q=85" alt="A bag of fresh grocery produce" loading="lazy"><span class="promo-sticker">GOOD<br>THINGS<br>INSIDE!</span></div>
+    </section>
+
+    <section class="newsletter-section container">
+      <div class="newsletter-icon">✉</div><div class="newsletter-copy"><h2>Good things, straight to your inbox.</h2><p>Offers, new arrivals and little reasons to smile.</p></div>
+      <form class="newsletter-form" id="newsletterForm"><label class="sr-only" for="newsletterEmail">Email address</label><input id="newsletterEmail" type="email" placeholder="Enter your email address" required><button type="submit">Keep me posted <span>→</span></button></form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+
+    
+  <section id="checkout" class="checkout-section container">
+    <div class="section-heading">
+      <div>
+        <span class="section-kicker">ALMOST THERE</span>
+        <h2>Complete your order.</h2>
+        <p class="section-description">
+          Enter your delivery details and choose how you want to pay.
+        </p>
+      </div>
+    </div>
+
+    <form id="checkout-form" class="checkout-form">
+      <label for="customer-name">Full name</label>
+      <input
+        id="customer-name"
+        name="customer_name"
+        type="text"
+        required
+        minlength="2"
+        maxlength="100"
+        autocomplete="name"
+      />
+
+      <label for="customer-phone">Phone number</label>
+      <input
+        id="customer-phone"
+        name="phone"
+        type="tel"
+        required
+        minlength="10"
+        maxlength="15"
+        autocomplete="tel"
+        placeholder="9876543210"
+      />
+
+      <label for="customer-address">Delivery address</label>
+      <textarea
+        id="customer-address"
+        name="address"
+        required
+        minlength="10"
+        maxlength="500"
+        autocomplete="street-address"
+        rows="3"
+      ></textarea>
+
+      <p class="payment-heading">Choose payment method</p>
+
+      <label class="payment-option">
+        <input
+          type="radio"
+          name="payment_method"
+          value="cod"
+          checked
+        />
+        Cash on Delivery
+      </label>
+
+      <label class="payment-option">
+        <input
+          type="radio"
+          name="payment_method"
+          value="upi"
+        />
+        UPI
+      </label>
+
+      <button type="submit" id="place-order-button" class="checkout-button">
+        Place Order
+      </button>
+
+      <button
+        type="button"
+        id="whatsapp-order-button"
+        class="secondary-button"
+      >
+        Order through WhatsApp
+      </button>
+
+      <p id="checkout-message" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+    <div class="container footer-main">
+      <div class="footer-brand-col"><a class="brand footer-brand" href="#"><span class="brand-mark"><svg viewBox="0 0 48 48"><path d="M24 5C14 5 7 13 7 23c0 11 7 18 17 20 10-2 17-9 17-20C41 13 34 5 24 5Z" fill="currentColor" opacity=".16"/><path d="M24 38V17" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M24 26C13 26 11 18 11 14c9 0 13 4 13 12ZM24 21c0-9 7-13 13-13 0 8-4 13-13 13Z" fill="currentColor"/></svg></span><span class="brand-copy"><strong>Jagdamba</strong><small>KIRANA STORE</small></span></a><p>Your neighbourhood kirana store, bringing everyday essentials closer to home.</p></div>
+      <div class="footer-col"><h3>Shop</h3><a href="#shop">All products</a><a href="#shop" data-footer-category="Fruits & Vegetables">Fresh produce</a><a href="#shop" data-footer-category="Atta, Rice & Dal">Atta, rice & dal</a><a href="#shop" data-footer-category="Snacks & Drinks">Snacks & drinks</a></div>
+      <div class="footer-col"><h3>Need help?</h3><a href="mailto:hello@jagdambakirana.example">Contact us</a><a href="#shop">How to order</a><a href="#shop">Delivery information</a></div>
+      <div class="footer-col footer-contact"><h3>Made for your home</h3><p><span>⌖</span> Jaipur, Rajasthan, India</p><p><span>♡</span> Fresh choices, everyday value</p><div class="social-row"><a href="#shop" aria-label="Instagram">ig</a><a href="#shop" aria-label="Facebook">f</a><a href="#shop" aria-label="WhatsApp">wa</a></div></div>
+    </div>
+    <div class="footer-bottom container"><span>© <span id="currentYear"></span> Jagdamba Kirana Store. All rights reserved.</span><span>Made with care for your everyday needs <span class="heart">♥</span></span></div>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartTitle" aria-modal="true" role="dialog" aria-hidden="true">
+    <div class="drawer-header"><div><span class="section-kicker">YOUR EVERYDAY ESSENTIALS</span><h2 id="cartTitle">Your cart <span id="drawerCartCount">(0)</span></h2></div><button class="icon-button" id="closeCartBtn" type="button" aria-label="Close cart">×</button></div>
+    <div class="delivery-progress"><div class="progress-copy"><span>You're shopping local!</span><strong id="freeDeliveryText">Add items to get started</strong></div><div class="progress-track"><span id="deliveryProgress"></span></div></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-empty" id="cartEmpty"><div>🛍️</div><h3>Your cart is taking a break</h3><p>Add a few everyday favourites and they'll show up here.</p><button class="primary-button" id="continueShoppingBtn" type="button">Start shopping</button></div>
+    <div class="cart-footer" id="cartFooter" hidden><div class="cart-summary-row"><span>Subtotal</span><strong id="cartSubtotal">₹0</strong></div><div class="cart-summary-row"><span>Delivery</span><strong id="deliveryFee">₹0</strong></div><p class="cart-disclaimer">Final delivery charges, availability and order confirmation will be handled at checkout.</p><div class="cart-summary-row total-row"><span>Estimated total</span><strong id="cartGrandTotal">₹0</strong></div><button class="checkout-button" id="checkoutBtn" type="button">Continue to checkout <span>→</span></button><p class="secure-note">🔒 Your order details stay protected</p></div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+  <script src="checkout.js"></script>
+</body>
+</html>
